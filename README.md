@@ -7,7 +7,7 @@
 - Clear Chat: Option to clear the chat and start a new conversation.
 - Backend API: The server handles fetching questions and bot responses using Express.js and MongoDB.
 - 
-## Technologies Used:
+# Technologies Used:
 - Frontend: React.js, Axios
 - Backend: Node.js, Express.js, MongoDB
 - Database: MongoDB (storing questions and responses)
@@ -30,9 +30,9 @@
 - npm i
 - npm run start
 
-# RUn Frontend 
+# Run Frontend 
 - cd chatbot-frontend
 - npm i
 - npm run dev
 
-  ## ENJOY....
+## ENJOY....
