@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const Question = require("../models/Question");
 
 const connectDB = async () => {
   try {

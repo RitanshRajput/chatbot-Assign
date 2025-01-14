@@ -10,7 +10,7 @@ const App = () => {
 
   // Fetch prebuilt questions
   useEffect(() => {
-    axios.get("http://localhost:5000/questions").then((res) => setQuestions(res.data));
+    axios.get("http://localhost:5000/api/questions").then((res) => setQuestions(res.data));
   }, []);
 
   const handleQuestionClick = async (question) => {
@@ -24,7 +24,7 @@ const App = () => {
 
     // Simulate a delay for the bot response
     try {
-      const response = await axios.post("http://localhost:5000/chat", { query: question });
+      const response = await axios.post("http://localhost:5000/api/chat", { query: question });
 
       // Append bot response after user message
       setTimeout(() => {
